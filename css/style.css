@@ -51,9 +51,29 @@ header div {
 
 main {
   display: flex;
-  flex-wrap: wrap; }
-  main .plop {
-    width: 30%;
+  flex-wrap: wrap;
+  flex-direction: column; }
+  main h3 {
+    font-size: 3.5rem;
+    font-weight: bold; }
+  main small {
+    font-size: 1.5rem;
+    font-weight: bold; }
+  main a {
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 2rem 3rem;
+    margin-top: 3rem;
+    box-shadow: 4px 20px 33px -10px rgba(0, 0, 0, 0.5); }
+  main .left {
+    padding: 15rem 0;
+    width: 35%;
+    align-self: flex-start; }
+  main .right {
+    padding: 15rem 0;
+    width: 35%;
     align-self: flex-end; }
 
 /*# sourceMappingURL=style.css.map */
